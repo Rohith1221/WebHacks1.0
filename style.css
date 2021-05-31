@@ -216,8 +216,9 @@ nav {
   flex-direction: row;
 }
 .mobile-menu {
+  text-align: center;
   height: 30px;
-  filter: invert();
+  width: 40px;
 }
 
 .menu-cont {
@@ -485,10 +486,71 @@ nav {
 .ir-1:hover {
   background-color: rgb(101, 92, 240);
 }
+.fas,
+.far {
+  color: rgb(101, 92, 240);
+}
+.fa-arrow-right {
+  color: white;
+}
+.fa-bars {
+  color: white;
+}
+.fa-times {
+  color: white;
+}
 
 /* 
   font-family: "Montserrat", sans-serif;
 
   font-family: "Questrial", sans-serif; 
  
-  */ ;
+  */
+
+.hidden {
+  display: none;
+}
+/* 
+.exit-menu {
+  float: right;
+  margin-top: -19px;
+  margin-right: -20px;
+  position: inherit;
+  padding: 20px 30px;
+  background: rgb(77, 65, 240);
+  border-radius: 0px 0px 0px 30px;
+  cursor: pointer;
+}
+.modal-top {
+  padding: 20px;
+  background: rgba(95, 84, 243, 0.438);
+  border-radius: 30px 0px 0px 0px;
+}
+
+.ml-foot {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 0px 0px 20px 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.ml-left {
+  display: flex;
+}
+.ml-left p {
+  margin-left: 10px;
+  -webkit-transition: 0.2s;
+}
+.ml-left p:hover {
+  color: rgb(77, 65, 240);
+  cursor: pointer;
+}
+
+.ml-right {
+  display: flex;
+}
+.ml-right i:hover {
+  color: rgb(77, 65, 240);
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+} */
